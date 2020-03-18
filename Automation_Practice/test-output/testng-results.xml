@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27082" started-at="2020-01-07T04:23:14Z" finished-at="2020-01-07T04:23:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27082" started-at="2020-01-07T04:23:14Z" finished-at="2020-01-07T04:23:41Z">
+      <class name="com.gmailAccounts.Gmail_with_TestNG_For_Report">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gmailAccounts.Gmail_with_TestNG_For_Report@66a3ffec]" name="setup" is-config="true" duration-ms="12999" started-at="2020-01-07T04:23:14Z" finished-at="2020-01-07T04:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupExtentsReport()[pri:0, instance:com.gmailAccounts.Gmail_with_TestNG_For_Report@66a3ffec]" name="setupExtentsReport" is-config="true" duration-ms="302" started-at="2020-01-07T04:23:27Z" finished-at="2020-01-07T04:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentsReport -->
+        <test-method status="PASS" signature="gmailLogin()[pri:0, instance:com.gmailAccounts.Gmail_with_TestNG_For_Report@66a3ffec]" name="gmailLogin" duration-ms="12272" started-at="2020-01-07T04:23:27Z" finished-at="2020-01-07T04:23:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLogin -->
+        <test-method status="PASS" signature="getExtendsReport()[pri:0, instance:com.gmailAccounts.Gmail_with_TestNG_For_Report@66a3ffec]" name="getExtendsReport" is-config="true" duration-ms="698" started-at="2020-01-07T04:23:39Z" finished-at="2020-01-07T04:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExtendsReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.gmailAccounts.Gmail_with_TestNG_For_Report@66a3ffec]" name="teardown" is-config="true" duration-ms="760" started-at="2020-01-07T04:23:40Z" finished-at="2020-01-07T04:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.gmailAccounts.Gmail_with_TestNG_For_Report -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
