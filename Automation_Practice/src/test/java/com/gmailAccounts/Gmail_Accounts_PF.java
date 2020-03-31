@@ -1,12 +1,17 @@
 package com.gmailAccounts;
 
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.LogIn.Master_PageFactory;
 
@@ -78,6 +83,16 @@ public class Gmail_Accounts_PF {
 			
 			
 		}
+		
+		
+
+		WebDriverWait wait = new WebDriverWait(driver,30);
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElements(By.xpath("//*[@class='yW']")).get(0)));
+		
+		
+		List<WebElement> elements = driver.findElements(By.xpath("//*[@class='yW']"));
+		elements.size();
+		System.out.println(elements.size());
 		
 		driver.quit();
 	}

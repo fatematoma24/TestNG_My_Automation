@@ -14,7 +14,7 @@ public class GmailLogin {
 
 	static WebDriver driver;
 
-	public static WebDriver GmailLogIn() {
+	public static WebDriver LogIn() {
 
 		System.setProperty("webdriver.chrome.driver", "./Driver/ChromeDriver.exe");
 
@@ -60,6 +60,12 @@ public class GmailLogin {
 
 		return driver;
 
+	}
+	
+	public static void main(String[] args) {
+		
+		GmailLogin.LogIn();
+		
 	}
 
 }
